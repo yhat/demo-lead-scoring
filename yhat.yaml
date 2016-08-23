@@ -1,0 +1,10 @@
+job:
+  cpu: 512
+  mem: 512
+  os: "ubuntu"
+  base: "yhat/scienceops-r:latest"
+environment:
+  foo: bar
+dependencies:
+  - apt-get update
+  - apt-get install -y htop
